@@ -28,13 +28,13 @@ def ends_with_consonant(s):
 # if it ends with a number and false otherwise.
 # (For our purposes, a number is any character that is 0,1,2,3,4,5,6,7,8, or 9.)
 # Note: Be sure to use RegEx!
-# def ends_with_number(s):
-#     number = re.search("([0-9])$", s)
-#     if number:
-#         return True
-#     else:
-#         return False
-#     return
+def ends_with_number(s):
+    number = re.search("([0-9])$", s)
+    if number:
+        return True
+    else:
+        return False
+    return
 
 
 # Part C. binary_multiple_of_6
@@ -42,11 +42,11 @@ def ends_with_consonant(s):
 # if the string represents a binary number that is a multiple of 6.
 # Note: Be sure it returns false if the string is not a valid binary number!
 # Hint: Use regular expressions to match for the pattern of a binary number that is a multiple of 6.
-# def binary_multiple_of_6(s):
-#     two = re.search("(0)$", s)
-#     three = re.search("^(1(01*0)*1|0)*$", s)
-#     if three and two:
-#         return True
-#     else:
-#         return False
-#     return
+def binary_multiple_of_6(s):
+    two = re.search("(0)$", s)
+    three = re.search("^(1(01*0)*1|0)*$", s)
+    if three and two:
+        return True
+    else:
+        return False
+    return
