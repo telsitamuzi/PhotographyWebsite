@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webstyle.css" />
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+
+    <script src="webscript.js"></script>
+
+
+
+</head>
+<body class="registration">
+ <!-- header -->
+ <header class="header">
+    <div class="nav-section">
+      <div class="brand-and-navBtn">
+        <span class="brand-name"> <strong>ATTITO LENS</strong></span>
+        <span class="navBtn flex">
+        </span>
+      </div>
+
+      <!-- navigation menu -->
+      <nav id="top-nav">
+        <ul>
+          <li><a href="index.html" class="active" id="index">Home</a></li>
+          <li><a href="gallery.html" id="gallery">Gallery</a></li>
+          <li><a href="service.html" id="service">Client's Service</a></li>
+          <li><a href="contact.html" id="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div class="about">
+      <div class="about-content">
+        <div class="about-img flex">
+          <img class="profile" src="ProjectImages/Profile.jpg" alt="photographer profile" />
+        </div>
+        <h2>Marius</h2>
+        <h3>Photographer | Videographer</h3>
+        <br>
+       
+
+      </div>
+    </div>
+
+    
+  </header>
+  <!-- end of header -->
+
+  <!-- main section-->
+          
+        <form class= "inquire">
+          <br>
+          <br>
+         <label for="selection">How would you describe what you are looking for?</label>
+         <br>
+         
+         <select id="selection" name="selection">
+           <option value="photos">I want photos taken</option>
+           <option value="videos">I want a video made</option>
+           <option value="photo/video">I want both a photo/video</option>
+           <option value="monthly-content">I want to create content on a monthly basis</option>
+         </select> 
+         <br>
+         <br>
+
+         <label for="selection">Where will this take place?</label>
+         <select id="city" name="city">
+           <option value="Charlotte">Charlotte</option>
+           <option value="Raleigh">Raleigh</option>
+           <option value="Charleston">Charleston</option>
+           <option value="Ashville">Ashville</option>
+         </select> 
+         <br>
+
+         <br>
+
+         <label for="name"><strong>Name</strong></label>
+         <br>
+         <input type="text" placeholder="Enter your name" id="name" required>
+         <br>
+         <br>
+
+         <label for="email"><strong>Email</strong></label>
+         <br>
+         <input type="text" placeholder="Enter your email" id="email" required>
+         <br>
+         <br>
+
+
+         <label for="budget"><strong>What is your Budget?</strong></label>
+         <br>
+         <input type="text" placeholder="Enter your budget here" id="budget" required>
+         <br>
+         <br>
+
+         <button onclick="submission()" type="submit"  class="submitbtn"> Click here to Continue</button>
+
+
+        </form>
+
+
+  <section class="second-half">
+    <div class="container">
+      <h2>MEDIA</h2>
+
+       <!-- Social media icons inpired by https://www.kylebenjaminturner.com/ and https://fontawesome.com/icons/instagram -->
+       <div class="social-media-icons">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/mars.T027"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCVgPNyJdn3oZbR-sGL27EaQ" target="_blank"><i class="fab fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/attitolensprod/"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+  <!-- end of main section-->
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-style container">
+      <div>
+        <h2>ATTITO LENS PRODUCTION</h2>
+        <p>
+          Our vision is to provide quality service for our clients. We want our clients to get what they are 
+          paying for. 
+        </p>
+      </div>
+
+    </div>
+    <p>&copy; Copyright MARIUS.</p>
+  </footer>
+  <!-- end of footer -->
+
+</body>
+</html>

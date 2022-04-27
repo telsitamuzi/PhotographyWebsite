@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="webstyle.css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+
+    <script src="webscript.js"></script>
+
+
+
+  </head>
+  <body>
+    
+    <!-- header -->
+    <header class="header">
+      <div class="nav-section">
+        <div class="brand-and-navBtn">
+          <span class="brand-name"> <strong>ATTITO LENS</strong></span>
+          <span class="navBtn flex">
+          </span>
+        </div>
+
+        <!-- navigation menu -->
+        <nav id="top-nav">
+          <ul>
+            <li><a href="index.html" class="active" id="index">Home</a></li>
+            <li><a href="gallery.html" id="gallery">Gallery</a></li>
+            <li><a href="service.html" id="service">Client's Service</a></li>
+            <li><a href="contact.html" id="contact">Contact</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="about">
+        <div class="about-content">
+          <div class="about-img flex">
+            <img class="profile" src="ProjectImages/IMG-1475.jpeg" alt="photographer profile" /> 
+          </div>
+          <h2>Who is Marius?</h2>
+          <h3>Photographer | Videographer</h3>
+          <blockquote id="quote">
+            
+          </blockquote>
+          <br>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- main section-->
+    <div class="section-one">
+      <div class="container">
+        <div class="photo">
+          
+        </div>
+        <div class="button-link">
+          <p>In need of a professional photoshoot? Click the button below to discuss the details!</p>
+        </div>
+        <button onclick="registration()" id="register" type="button">
+          <strong>Click here to schedule a photoshoot</strong>
+        </button>
+      </div>
+    </div>
+
+    <section class="second-half">
+      <div class="container">
+        <h2>MEDIA</h2>
+
+        <!-- Social media icons inpired by https://www.kylebenjaminturner.com/ and https://fontawesome.com/icons/instagram -->
+        <div class="social-media-icons">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/mars.T027"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCVgPNyJdn3oZbR-sGL27EaQ" target="_blank"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/attitolensprod/"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- end of main section-->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-style container">
+        <div>
+          <h2>ATTITO LENS PRODUCTION</h2>
+          <p>
+            Our vision is to provide quality service for our clients. We want our clients to get what they are 
+            paying for. 
+          </p>
+        </div>
+        <div>
+          <h3>CONTACT US VIA EMAIL</h3>
+
+          <div class="contact-form">
+            <i class="fas fa-envelope"></i>
+            <input type="email" id="email" placeholder="Email Address" />
+            <button type="submit"><a href="https://mail.google.com/mail/u/0/#search/telsitamuzi%40gmail.com?compose=new" target="_blank">SEND</a></button>
+          </div>
+        </div>
+      </div>
+      <p>&copy; Copyright MARIUS.</p>
+    </footer>
+    <!-- end of footer -->
+
+  </body>
+</html>
